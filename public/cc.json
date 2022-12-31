@@ -1,0 +1,11 @@
+{
+	"cc": {
+		"version": 1,
+		"id": "cc",
+		"name": "1",
+		"kind": "Puppeteer",
+		"mood": null,
+		"postPlaybackMood": null,
+		"duration": 1
+	}
+}

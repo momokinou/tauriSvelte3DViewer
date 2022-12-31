@@ -1,0 +1,190 @@
+{
+    "asset": {
+        "copyright": "(C)2022 Matteo",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pSphere1",
+            "mesh": 0,
+            "translation": [
+                0.0,
+                0.0,
+                -11.98713493347168
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pSphereShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pSphereShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 2280,
+            "max": [
+                438
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pSphereShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 5268,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                1.0,
+                1.0000001192092896
+            ],
+            "min": [
+                -1.000000238418579,
+                -1.0,
+                -1.0000004768371585
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pSphereShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0,
+                0.07869059592485428,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.07869064807891846,
+                -1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pSphereShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 439,
+            "max": [
+                1.0000001192092896,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "untitled/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 21072,
+            "byteLength": 4560,
+            "target": 34963
+        },
+        {
+            "name": "untitled/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 7024,
+            "byteLength": 10536,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "untitled/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7024,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "untitled/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 17560,
+            "byteLength": 3512,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "untitled/data",
+            "byteLength": 25632,
+            "uri": "untitled0.bin"
+        }
+    ]
+}
